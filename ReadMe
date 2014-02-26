@@ -1,3 +1,8 @@
+2014 update by skycocker: fixed strlen and other bugs
+testing:
+  add `<string>NameAndPassword:invoke</string>` line to the authorization policy database *in place of* `<string>loginwindow:login</string>`. Otherwise it won't log you in.
+-------------------------------
+
 /*
 
 File: NameAndPassword.m
