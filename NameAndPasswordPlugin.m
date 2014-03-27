@@ -87,7 +87,7 @@ Copyright © 2006 Apple Computer, Inc., All Rights Reserved
         
         // add the username and password to the context values
         [self callbacks]->SetContextValue([self engineRef], kAuthorizationEnvironmentUsername, 1, &userNameValue);
-        [self callbacks]->SetContextValue([self engineRef], kAuthorizationEnvironmentPassword, 0, &userPasswordValue);
+        [self callbacks]->SetContextValue([self engineRef], kAuthorizationEnvironmentPassword, 1, &userPasswordValue);
         
         // allow authorization
         [self callbacks]->SetResult([self engineRef], kAuthorizationResultAllow);
